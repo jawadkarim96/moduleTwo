@@ -1,0 +1,70 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "int256",
+						"name": "studentScore",
+						"type": "int256"
+					}
+				],
+				"name": "score",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					},
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"task4.sol": "studentResult"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"task4.sol": {
+			"keccak256": "0xf9d73327cca2a796cbfb6602c21cf7b2b18376b2bf5a3f19844747acf372c1b9",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://f5a2f55592f405326e422b419b39dcffe12837ddd1673cbac0792d89e86c0390",
+				"dweb:/ipfs/QmXGxM4omTUFnAHWU2ywmRzu3QqE1P8Z1mybNiSRDTB9Jt"
+			]
+		}
+	},
+	"version": 1
+}
